@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <style>
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #rrrrrr;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .product-image {
+            flex: 1;
+            max-width: 600px;
+        }
+
+        .product-description {
+            flex: 1;
+            max-width: 600px;
+        }
+
+        .product-cta {
+            flex: 1;
+            max-width: 600px;
+        }
+
+        .product-image img {
+            width: 100%;
+            height: auto;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: green;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HeadPhones</h1>
+    </header>
+
+    <div class="container">
+        <div class="product-image">
+            <img src="https://th.bing.com/th/id/OIP.yhNzt6gHqMpqdq_eClR7mQHaHa?w=193&h=193&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="Product Image"  >
+<p> <b>boAt Rockerz 510 Super Extra Bass Bluetooth Headset  (Furious blue, On the Ear)</b></p>
+<p><b>4.32 Ratings & 29,842 Reviews</b></p>
+<h3><b>Price drop-₹1,599</b></h3>
+
+        <div class="product-description">
+<h3>Key Features</h3>
+<p> *Over-Ear Closed-Back Design</p>
+
+<p>*Active Noise Cancellation</p>
+
+<p>*Adjustable Padded Headband</p>
+
+<p>*Leather Padded Ear-Cups</p>
+<p>
+            <h3>Product Description</h3>
+            <p>The silver Executive Over-Ear Headphones from Beats by Dr. Dre feature a closed-back, circumaural design and are equipped with active noise-cancellation technology. They offer the same audio quality as the Beats line of headphones and are additionally geared to block external sound in noisy travel environments.</p>
+
+        </div>
+
+        <div class="product-cta">
+            <h3>Get Yours Now!</h3>
+            <p>Don't miss out on this amazing product. Limited stock available.</p>
+            <a href="#" class="cta-button">Buy Now</a>
+        </div>
+    </div>
+</body>
+</html>
